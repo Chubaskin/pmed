@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>PortalMed</h1>
+
+<div>
+<button name="buscaImagen" onclick="buscaImagen()" value="Imagen">Imagen</button><br>
+<button name="buscaExamen" onclick="buscaExamen()" value="Examen">Examen</button><br>
+<button name="buscaMedico" onclick="buscaMedico()" value="Medico">Medico</button><br>
+<button name="buscaDentista" onclick="buscaDentista()" value="Dentista">Dentista</button><br>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.createElement("BUTTON");
+    var t = document.createTextNode("Click me");
+    x.appendChild(t);
+    document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
+
